@@ -103,7 +103,7 @@ a:active {color: black;}
 position: relative;
 left: 50%;
 margin-top: 50%;
-transform: translate(-50%, 50%);
+transform: translate(-50%, -50%);
 font-family: Arial;
 font-size: 22px;
 font-weight: 700;
