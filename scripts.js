@@ -64,10 +64,6 @@ document.getElementById("h.1").id = "link";
 document.getElementById("h.2").id = "letter";
 document.getElementById("h.3").id = "title";}
 
-/* Change element properties functions */
-
-/* Load Changes */ 
-
 if ("a.1" in localStorage) {
 window.onload = loadChanges1();} else {}
 
@@ -163,8 +159,6 @@ document.getElementById("h.2").innerHTML = localStorage.getItem("h.1");
 var element = document.getElementById("h.2");
 element.style.color = localStorage.getItem("h.3");
 document.getElementById("h.3").innerHTML = localStorage.getItem("h.2");}
-
-/* Load Changes End */
 
 function changeLetter() {
 
@@ -361,7 +355,6 @@ document.getElementById("link").id = "b.1";
 document.getElementById("letter").id = "b.2";
 document.getElementById("title").id = "b.3";}
 
-
 function resetid3() {
 
 document.getElementById("link").id = "c.1";
@@ -375,13 +368,11 @@ document.getElementById("link").id = "d.1";
 document.getElementById("letter").id = "d.2";
 document.getElementById("title").id = "d.3";}
 
-
 function resetid5() {
 
 document.getElementById("link").id = "e.1";
 document.getElementById("letter").id = "e.2";
 document.getElementById("title").id = "e.3";}
-
 
 function resetid6() {
 
@@ -394,7 +385,6 @@ function resetid7() {
 document.getElementById("link").id = "g.1";
 document.getElementById("letter").id = "g.2";
 document.getElementById("title").id = "g.3";}
-
 
 function resetid8() {
 
