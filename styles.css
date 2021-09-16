@@ -1,5 +1,3 @@
-/* "container" styles */
-
 .container {
 
 display: inline-block;
@@ -9,12 +7,7 @@ top: 50%;
 transform: translate(-50%, -50%);
 background-color: transparent;
 height: 250px;
-width: 500px;
-}
-
-/* End of "container" styles */
-
-/* "buttoncontainer" styles */
+width: 500px;}
 
 .buttoncontainer {
 
@@ -40,7 +33,6 @@ background-color: f3f3f3;}
 
 display: block;
 background-color: f3f3f3;}
-
 
 .editbutton {
 
@@ -71,10 +63,6 @@ height: 2px;
 width: 4px;
 background-color: white;}
 
-/* End of "buttoncontainer" styles */
-
-/* "circle" styles */
-
 .circle {
 
 text-align: center;
@@ -85,10 +73,6 @@ width: 60px;
 border-radius: 30px;
 margin-left: 26px;
 margin-top: 10px;}
-
-/* End of "circle" styles */
-
-/* "title" styles */
 
 .title {
 
@@ -106,10 +90,6 @@ height: 20px;
 margin-top: 85px;
 margin-left: 6px;}
 
-/* End of "title" styles */
-
-/* HTML Link style */
-
 a:link {color: black;}
 
 a:visited {color: black;}
@@ -118,26 +98,18 @@ a:hover {color: black;}
 
 a:active {color: black;}
 
-/* End of HTML Link style */
-
-/* "letter" styles */
-
 .letter {
 
 position: relative;
 left: 50%;
-margin-top: 16px;
-transform: translate(-50%, 0);
-font-family: Calibri;
+margin-top: 50%;
+transform: translate(-50%, 50%);
+font-family: Arial;
 font-size: 22px;
 font-weight: 700;
 width: 30px;
 height: 25px;
 background-color: transparent;}
-
-/* End of "letter" styles */
-
-/* "changebox" */
 
 .changeboxcontainer {
 
@@ -169,7 +141,7 @@ position: relative;
 font-size: 32px;
 margin-left: 20px;
 border-top: 13px solid transparent;
-font-family: calibri;}
+font-family: Arial;}
 
 hr {
 
@@ -191,7 +163,7 @@ width: 170px;}
 .cbt1 {
 
 font-size: 22px;
-font-family: calibri;
+font-family: Arial;
 margin-left: 20px;
 margin-top: 10px;
 height: 25px;
@@ -215,7 +187,7 @@ border: 2px solid gray;}
 
 background-color: transparent;
 height: 27px;
-font-family: calibri;
+font-family: Arial;
 font-size: 16px;
 border: 2px solid gray;
 border-radius: 3px;
@@ -245,7 +217,7 @@ position: relative;
 top: 50%;
 text-align: center;
 transform: translate(0, -50%);
-font-family: calibri;
+font-family: Arial;
 font-size: 16px;
 color: 0cb300;}
 
@@ -322,5 +294,3 @@ background-color: #232429;}
 .dark-mode #clearLocalStorage:active, .changeButton:active, #closebutton:active {
   
 background-color: #1a1b1f;}
-
-/* End of Dark Mode */
