@@ -1,0 +1,213 @@
+<html class="dark-mode">
+
+<head> 
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+
+<body>
+
+<!-- Inputs -->
+
+<!-- Input 1 -->
+
+<input type="button" id="clearLocalStorage" value="Reset Shortcuts" onclick="clearLocalStorage();">
+
+<div id="cbc" class="changeboxcontainer" hidden>
+
+<div class="changebox">
+
+<div class="changeboxtitle">Edit</div>
+
+<button id="closebutton" onclick="closeEditWindow();">x</button>
+
+<hr>
+
+<hr>
+
+<div class="cbt1">Letter:</div><input type="text" id="changeletter" class="input" maxlength="1" placeholder="E.g: A, B, C...">
+
+<br>
+
+<!-- Input 2 -->
+
+<div class="cbt1">Title:</div><input type="text" id="changetitle" class="input" placeholder="E.g: Gmail, GM, Mail...">
+
+<br>
+
+<!-- Input 3 -->
+
+<div class="cbt1">Color:</div><input type="color" id="changecolor" class="input">
+
+<br>
+
+<!-- Input 4 -->
+
+<div class="cbt1">Link:</div><input type="text" id="changelink" class="input" placeholder="E.g: https://google.com/">
+
+<br>
+
+<div id="fillwarningbox"><div id="fillwarningtext">Fill every field to apply changes.</div></div>
+
+<input type="submit" class="changeButton" id="changeButton1" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton2" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton3" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton4" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton5" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton6" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton7" value="Ok" onclick="checkFields1();" hidden>
+
+<input type="submit" class="changeButton" id="changeButton8" value="Ok" onclick="checkFields1();" hidden>
+
+</div>
+
+</div>
+
+<!--End of Inputs -->
+
+
+
+<div class="container">
+
+<!-- Button 1 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid1(); showChangeBox(); showChangeButton1()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="a.1" class="shortcut" title="MSFN" href="https://msfn.org/board/">
+
+<div class="circle"> <div id="a.2" style="color: #014974;" class="letter">M</div> </div>
+
+<div id="a.3" class="title">MSFN</div>
+
+</a>
+
+</div>
+
+<!-- Button 2 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid2(); showChangeBox(); showChangeButton2();"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="b.1" class="shortcut" title="Gmail" href="https://mail.google.com/mail/">
+
+<div class="circle"> <div id="b.2" style="color: #eb4724;" class="letter">G</div> </div>
+
+<div id="b.3" class="title">Gmail</div>
+
+</a>
+
+</div>
+
+<!-- Button 3 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid3(); showChangeBox(); showChangeButton3()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="c.1" class="shortcut" title="YouTube" href="https://www.youtube.com/">
+
+<div class="circle"> <div id="c.2" style="color: #fe0000;" class="letter">Y</div> </div>
+
+<div id="c.3" class="title">YouTube</div>
+
+</a>
+
+</div>
+
+<!-- Button 4 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid4(); showChangeBox(); showChangeButton4()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="d.1" class="shortcut" title="Reddit" href="https://www.reddit.com/">
+
+<div class="circle"> <div id="d.2" style="color: #ff3b0b;" class="letter">R</div> </div>
+
+<div id="d.3" class="title">Reddit</div>
+
+</a>
+
+</div>
+
+<!-- Button 5 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid5(); showChangeBox(); showChangeButton5()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="e.1" class="shortcut" title="Operanting System Revival" href="https://retrosystemsrevival.blogspot.com/">
+
+<div class="circle"> <div id="e.2" style="color: #239db6;" class="letter">O</div> </div>
+
+<div id="e.3" class="title">Operating System Revival</div>
+
+</a>
+
+</div>
+
+<!-- Button 6 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid6(); showChangeBox(); showChangeButton6()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="f.1" class="shortcut" title="DeepL Translate" href="https://www.deepl.com/translator">
+
+<div class="circle"> <div id="f.2" style="color: #0f2b46;" class="letter">D</div> </div>
+
+<div id="f.3" class="title">DeepL Translate</div>
+
+</a>
+
+</div>
+
+<!-- Button 7 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid7(); showChangeBox(); showChangeButton7()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="g.1" class="shortcut" title="Internet Archive" href="https://www.archive.org/">
+
+<div class="circle"> <div id="g.2" style="color: black;" class="letter">I</div> </div>
+
+<div id="g.3" class="title">Internet Archive</div>
+
+</a>
+
+</div>
+
+<!-- Button 8 -->
+
+<div class="buttoncontainer">
+
+<button class="editbutton" title="Edit" onclick="setid8(); showChangeBox(); showChangeButton8()"><div class="pencil1"><div class="pencil2"></div></div></button>
+
+<a id="h.1" class="shortcut" title="Imgur" href="https://www.imgur.com/">
+
+<div class="circle"> <div id="h.2" style="color: #1bb76e;" class="letter">I</div> </div>
+
+<div id="h.3" class="title">Imgur</div>
+
+</a>
+
+</div>
+
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+
+</html>

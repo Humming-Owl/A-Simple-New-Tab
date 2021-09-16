@@ -1,0 +1,326 @@
+/* "container" styles */
+
+.container {
+
+display: inline-block;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: transparent;
+height: 250px;
+width: 500px;
+}
+
+/* End of "container" styles */
+
+/* "buttoncontainer" styles */
+
+.buttoncontainer {
+
+display: inline-block;
+width: 112px;
+height: 112px;
+background-color: transparent;
+border-radius: 5px;
+margin-left: 8px;
+margin-top: 7.5px;}
+
+.shortcut {
+
+display: inline-block;
+width: 100%;
+height: 100%;}
+
+.buttoncontainer:hover {
+
+background-color: f3f3f3;}
+
+.buttoncontainer:hover .editbutton{
+
+display: block;
+background-color: f3f3f3;}
+
+
+.editbutton {
+
+cursor: pointer;
+display: none;
+margin-left: 92px;
+border: 0px;
+border-radius: 5px;
+background-color: transparent;
+width: 20px;
+height: 20px;
+position: fixed;}
+
+.pencil1 {
+
+margin-left: 2px;
+height: 18px;
+width: 4px;
+border-radius: 1px 1px 2px 2px;
+transform: rotate(45deg);
+background-color: black;}
+
+.pencil2 {
+
+position: fixed;
+margin-top: 13px;
+height: 2px;
+width: 4px;
+background-color: white;}
+
+/* End of "buttoncontainer" styles */
+
+/* "circle" styles */
+
+.circle {
+
+text-align: center;
+position: fixed;
+background-color: e6e6e6;
+height: 60px;
+width: 60px;
+border-radius: 30px;
+margin-left: 26px;
+margin-top: 10px;}
+
+/* End of "circle" styles */
+
+/* "title" styles */
+
+.title {
+
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+text-align: center;
+position: fixed;
+background-color: transparent;
+font-family: Arial;
+font-size: 13px;
+font-weight: 400;
+width: 100px;
+height: 20px;
+margin-top: 85px;
+margin-left: 6px;}
+
+/* End of "title" styles */
+
+/* HTML Link style */
+
+a:link {color: black;}
+
+a:visited {color: black;}
+
+a:hover {color: black;}
+
+a:active {color: black;}
+
+/* End of HTML Link style */
+
+/* "letter" styles */
+
+.letter {
+
+position: relative;
+left: 50%;
+margin-top: 16px;
+transform: translate(-50%, 0);
+font-family: Calibri;
+font-size: 22px;
+font-weight: 700;
+width: 30px;
+height: 25px;
+background-color: transparent;}
+
+/* End of "letter" styles */
+
+/* "changebox" */
+
+.changeboxcontainer {
+
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.4);
+position: absolute;
+z-index: 1;}
+
+.changebox {
+
+height: 320px;
+width: 300px;
+position: relative;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: white;
+border-radius: 8px;
+border: 2px dashed black;}
+
+.changeboxtitle {
+
+display: inline-block;
+font-weight: 700;
+position: relative;
+font-size: 32px;
+margin-left: 20px;
+border-top: 13px solid transparent;
+font-family: calibri;}
+
+hr {
+
+margin-top: -2px;
+position: relative;
+border: 1px solid black;}
+
+.input {
+
+font-size: 15px;
+border-radius: 3px;
+border: 1px solid gray;
+margin-right: 20px;
+margin-top: 10px;
+float: right;
+height: 25px;
+width: 170px;}
+
+.cbt1 {
+
+font-size: 22px;
+font-family: calibri;
+margin-left: 20px;
+margin-top: 10px;
+height: 25px;
+display: inline-block;}
+
+.changeButton {
+
+cursor: pointer;
+background-color: transparent;
+font-size: 15px;
+height: 30px;
+width: 50px;
+margin-top: 15px;
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+border-radius: 4px;
+border: 2px solid gray;}
+
+#clearLocalStorage {
+
+background-color: transparent;
+height: 27px;
+font-family: calibri;
+font-size: 16px;
+border: 2px solid gray;
+border-radius: 3px;
+float: right;}
+
+#clearLocalStorage:hover {
+
+background-color: f3f3f3;}
+
+#clearLocalStorage:active {
+  
+background-color: e6e6e6;}
+
+#fillwarningbox {
+
+margin-top: 15px;
+border-radius: 5px;
+border: 2px solid #0cb300;
+height: 30px;
+width: 80%;
+margin-left: 10%;}
+
+#fillwarningtext {
+
+width: 100%;
+position: relative;
+top: 50%;
+text-align: center;
+transform: translate(0, -50%);
+font-family: calibri;
+font-size: 16px;
+color: 0cb300;}
+
+.changeButton:hover {
+
+background-color: f3f3f3;}
+
+.changeButton:active {
+  
+background-color: e6e6e6;}
+
+#closebutton {
+
+border: 2px solid gray;
+border-radius: 4px;
+background-color: transparent;
+font-size: 20px;
+font-weight: 700;
+height: 31px;
+width: 31px;
+margin-top: 10px;
+margin-right: 10px;
+display: inline-block;
+position: relative;
+float: right;}
+
+#closebutton:hover {
+
+background-color: f3f3f3;}
+
+#closebutton:active {
+  
+background-color: e6e6e6;}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+	
+html.dark-mode, input {
+
+background-color: #27282F;}
+
+.dark-mode .changebox {
+
+background-color: #27282F;
+border: 2px dashed white;}
+
+.dark-mode .title, #clearLocalStorage, .cbt1, .changeboxtitle, .changebutton, input, #closebutton {
+
+color: #FFFFFF;}
+
+.dark-mode hr {border-color: #FFFFFF;}
+
+.dark-mode .buttoncontainer:hover {
+
+background-color: #232429;}
+
+.dark-mode .circle, .pencil2 {
+
+background-color: #1a1b1f;}
+
+.dark-mode .buttoncontainer:hover .editbutton{
+
+background-color: #232429;}
+
+.dark-mode .pencil1 {
+
+background-color: white;}
+
+.dark-mode #clearLocalStorage:hover, .changeButton:hover, #closebutton:hover {
+
+background-color: #232429;}
+
+.dark-mode #clearLocalStorage:active, .changeButton:active, #closebutton:active {
+  
+background-color: #1a1b1f;}
+
+/* End of Dark Mode */
